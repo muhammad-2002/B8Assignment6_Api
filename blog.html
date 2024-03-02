@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog page</title>
+    <link rel="shortcut icon" href="images/Group 3.png" type="image/x-icon" />
+
+    <!-- tailwind css link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- header section  -->
+    <header class="max-w-7xl mx-auto py-14 md:px-4 lg:px-2 px-4">
+      <div class="md:flex md:justify-between mb-10">
+        <div class="flex justify-center">
+          <img src="images/Logo.png" alt="" />
+        </div>
+
+        <div class="flex justify-center">
+          <button
+            class="btn mt-4 md:mt-0 bg-[#5fff1f] text-lg text-white outline-none border-none"
+          >
+            <a href="index.html">Go home</a>
+          </button>
+        </div>
+      </div>
+      <hr />
+    </header>
+
+    <!-- my-blog section -->
+    <section class="max-w-7xl mx-auto py-14 md:px-4 lg:px-2 px-4">
+      <div>
+        <div
+          class="border-solid border-2 border-sky-200 rounded-lg py-12 px-8 bg-slate-200 mb-4"
+        >
+          <h1 class="text-4xl">
+            # Discuss the scope of
+            <span class="text-sky-400/100 font-bold pb-4">var</span>,
+            <span class="text-sky-400/100 font-bold">let</span>, and
+            <span class="text-sky-400/100 font-bold">const</span> ?
+          </h1>
+
+          <ul class="mt-4 text-xl">
+            <li>1. Variables declared with var are in the function scope.</li>
+            <li>2. Variables declared as let are in the block scope.</li>
+            <li>3. Variables declared as const are in the block scope.</li>
+          </ul>
+          <p class="mt-4">
+            var declarations are globally scoped or function scoped while let
+            and const are block scoped. var variables can be updated and re
+            declared within its scopes, let variables can be updated but not re
+            declared, const variables can neither be updated not re declared.
+            see more...
+          </p>
+          <h1 class="text-neutral-500 mt-4">Publish Date: 02 September 2023</h1>
+        </div>
+
+        <div
+          class="border-solid border-2 border-sky-200 rounded-lg py-12 px-8 mb-4 bg-slate-200"
+        >
+          <h1 class="text-4xl">
+            # Tell us the use cases of
+            <span class="text-sky-400/100 font-bold">null</span> and
+            <span class="text-sky-400/100 font-bold">undefined </span> ?
+          </h1>
+          <h1 class="text-2xl font-bold mt-4">
+            <span class="text-red-600">Ans:</span> In JavaScript, there are 6
+            falsy values including undefined and null-
+          </h1>
+          <ul class="text-xl">
+            <li>1. false value</li>
+            <li>2. 0</li>
+            <li>3. "" [empty string]</li>
+            <li>4. NaN, it's mean by Not a number</li>
+            <li>5. undefined</li>
+            <li>6. null</li>
+          </ul>
+          <p class="mt-4 text-lg">
+            In JavaScript, each variable can hold both object values and
+            primitive values. Therefore, if null means not an object, JavaScript
+            also needs an initialization value that means “neither an object nor
+            a primitive value”. That initialization value is undefined. see
+            more...
+          </p>
+          <h1 class="text-neutral-500 mt-4">Publish Date: 02 September 2023</h1>
+        </div>
+
+        <div
+          class="border-solid border-2 border-sky-100 rounded-lg py-12 px-8 bg-slate-200"
+        >
+          <h1 class="text-4xl">
+            # What do you mean by
+            <span class="text-sky-400/100 font-bold">REST </span> API?
+          </h1>
+          <h1 class="text-2xl font-bold mt-8">
+            <span class="text-red-600">Ans:</span> Understanding the Basics of
+            REST APIs-
+          </h1>
+          <ul class="text-xl">
+            <li>1. GET request to fetch data</li>
+            <li>
+              2. PUT request to alter the state of data (such as an object,
+              file, or block)
+            </li>
+            <li>3. ""(empty string)</li>
+            <li>4. POST request to create data</li>
+            <li>5. DELETE request to eliminate it</li>
+          </ul>
+          <p class="text-lg my-4">
+            API stands for Application Programming Interface. It is a piece of
+            software that can be used by another piece of software, in order to
+            allow application to talk to each other. For example think of an API
+            like a menu in a restaurant. The menu provides a list of dishes you
+            can order, along with a description of each dish. When you specify
+            what menu items you want, the restaurant's kitchen does the work and
+            provides you with some finished dishes. You don't know exactly how
+            the restaurant prepares that food, and you don't really need to. see
+            more...
+          </p>
+          <h1 class="text-neutral-500">Publish Date: 02 September 2023</h1>
+        </div>
+
+        <div></div>
+      </div>
+    </section>
+  </body>
+</html>
